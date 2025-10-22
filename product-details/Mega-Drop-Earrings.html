@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="witdth=device-width, intial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../product-details/styling-details.css">
+    <script src="../Home page/header.js" defer></script>
+    <link rel="stylesheet" href="../Home page/HeadFoot.css">
+    <script src="../product-details/productdetails.js"></script>
+
+
+</head>
+
+<body class="earings">
+    <div id="header"></div>
+    <section class="Product">
+        <div class="product-earings-image">
+            <img id="productImage" src="../images/earrings-page/earring4.webp" alt="Product Image">
+        </div>
+        <div class="pdetails">
+            <h2>Garland Cluster Large Diamond Earrings</h2>
+            <p>LE 1,464,892.00</p>
+            <hr>
+            <button id="addToCart" onclick="toggleDetails()">Add to Cart</button>
+            <br><br>
+            <div class="quantity-container">
+                <button class="quantity-btn decrease-btn">-</button>
+                <input type="number" class="quantity-input" value="0" min="0">
+                <button class="quantity-btn increase-btn">+</button>
+            </div>
+            <details>
+                <summary>Details</summary>
+                <p>A variation on the iconic Winston Cluster motif, the Garland Cluster Collection features an artful circle of fancy-shaped diamonds set with minimal metal at varying angles. The result is a cluster of pear-shaped, marquise and round brilliant diamonds that has remarkable sophistication, depth and brilliance.
+2 marquise, 8 pear-shaped and 12 round brilliant diamonds weighing approximately 4.70 carats, set in platinum.</p>
+            </details>
+            <details>
+                <summary>Shipping and Returns</summary>
+                <p>Vita will arrange an exchange or issue a store credit within 30 days of original purchase. All
+                    exchanges
+                    must be in the original condition and must be accompanied with the original packaging and sales
+                    slip.</p>
+            </details>
+        </div>
+    </section>
+    <div id="footer"></div>
+</body>
+
+</html>

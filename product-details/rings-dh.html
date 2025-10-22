@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../product-details/styling-details.css">
+    <link rel="stylesheet" href="../Home page/HeadFoot.css">
+    <script src="../Home page/header.js" defer></script>
+    <script src="./productdetails.js"></script>
+</head>
+
+<body class="rings">
+    <div id="header"></div>
+    <section class="Product">
+        <div class="product-ring-image">
+            <img id="productImage" src="../images/rings-page/Small Oval Buckle Ring.webp" alt="Product Image">
+        </div>
+        <div class="pdetails">
+            <h2>Sunflower Diamond Ring</h2>
+            <p>LE 1,017,719.00</p>
+            <hr><br><br>
+
+            
+
+            <button id="addToCart">Add to Cart</button><br><br>
+
+            <div class="quantity-container">
+                <button class="quantity-btn decrease-btn">-</button>
+                <input type="number" class="quantity-input" value="1" min="1">
+                <button class="quantity-btn increase-btn">+</button>
+            </div>
+
+            <details>
+                <summary>Details</summary>
+                <p>17 round brilliant diamonds weighing a total of approximately 1.72 carats, center stone is approximately 0.70 carats, set in platinum.</p>
+            </details>
+            <details>
+                <summary>Shipping and Returns</summary>
+                <p>Vita will arrange an exchange or issue a store credit within 30 days of original purchase...</p>
+            </details>
+        </div>
+    </section>
+    <div id="footer"></div>
+
+    <script src="product-details.js" defer></script>
+</body>
+
+</html>
